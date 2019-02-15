@@ -1,0 +1,11 @@
+[Unit]
+Description=Query PiHole Data
+After=network.target
+
+[Service]
+Type=simple
+User=zabbix
+ExecStart=/etc/zabbix/bin/pihole_data.sh
+
+[Install]
+WantedBy=multi-user.target

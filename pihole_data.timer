@@ -1,0 +1,9 @@
+[Unit]
+Description=Query piHole data every minute
+
+[Timer]
+OnCalendar=*:0/1
+# RandomizedDelaySec=30
+
+[Install]
+WantedBy=timers.target
