@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-02-15T05:21:15Z</date>
+    <date>2019-02-15T05:28:24Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -17,7 +17,11 @@
                     <name>Templates</name>
                 </group>
             </groups>
-            <applications/>
+            <applications>
+                <application>
+                    <name>DNS</name>
+                </application>
+            </applications>
             <items>
                 <item>
                     <name>PiHole - Ads Blocked Today</name>
@@ -49,7 +53,11 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
@@ -104,7 +112,11 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
@@ -159,7 +171,11 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
@@ -214,7 +230,11 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
                     <valuemap/>
                     <logtimefmt/>
                     <preprocessing/>
