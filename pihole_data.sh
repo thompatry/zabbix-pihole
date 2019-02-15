@@ -59,16 +59,16 @@ case "$1" in
         cat "$CACHE_FILE"
         ;;
     -do|--domains)
-        awk '/Domains Blocked/ { print }' "$CACHE_FILE"
+        awk '/Domains Blocked/ { print $3 }' "$CACHE_FILE"
         ;;
     -dn|--dns)
-        awk '/DNS Queries Today/ { print }' "$CACHE_FILE"
+        awk '/DNS Queries Today/ { print $4 }' "$CACHE_FILE"
         ;;
     -ab|--ads-blocked)
-        awk '/Ads Blocked Today/ { print }' "$CACHE_FILE"
+        awk '/Ads Blocked Today/ { print $4 }' "$CACHE_FILE"
         ;;
     -ap|--ads-percentage)
-        awk '/Ads Percentage Today/ { print }' "$CACHE_FILE"
+        awk '/Ads Percentage Today/ { print $4 }' "$CACHE_FILE"
         ;;
     -f|--force)
         rm -rf "$LOCK_FILE"
