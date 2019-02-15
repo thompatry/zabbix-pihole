@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-02-15T05:19:09Z</date>
+    <date>2019-02-15T05:21:15Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -80,13 +80,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>pihole.adspercenttoday</key>
-                    <delay>10s</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units/>
+                    <units>%</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
