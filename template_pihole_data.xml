@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-02-15T05:00:29Z</date>
+    <date>2019-02-15T05:19:09Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -20,18 +20,18 @@
             <applications/>
             <items>
                 <item>
-                    <name>PiHole - Ads Blocked Today Percetage</name>
+                    <name>PiHole - Ads Blocked Today</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>adspercentagetoday</key>
+                    <key>pihole.adsblockedtoday</key>
                     <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>%</units>
+                    <units/>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -75,16 +75,16 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>PiHole - Ads Blocked Today</name>
+                    <name>PiHole - Ads Blocked Percentage</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>pihole.adsblockedtoday</key>
-                    <delay>60s</delay>
+                    <key>pihole.adspercenttoday</key>
+                    <delay>10s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
-                    <value_type>3</value_type>
+                    <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
                     <snmpv3_contextname/>
