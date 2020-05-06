@@ -1,5 +1,5 @@
 # Zabbix PiHole template
-# Tested on Zabbix 4.0.3
+# Tested on Zabbix 4.2
 
 ## Installation (Generic x86_64)
 - Install jq: `sudo apt install jq`
