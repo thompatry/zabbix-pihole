@@ -1,8 +1,11 @@
 [Unit]
-Description=Query piHole data every minute
+Description=Query piHole data every 15 seconds
 
 [Timer]
-OnCalendar=*:0/1
+AccuracySec=1
+OnBootSec=2min
+OnUnitActiveSec=15
+#OnCalendar=*:0/1
 # RandomizedDelaySec=30
 
 [Install]
